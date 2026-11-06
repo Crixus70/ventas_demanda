@@ -1,0 +1,20 @@
+﻿id,nombre,categoria,precio
+1,Audífonos inalámbricos,Electrónica,899.0
+2,Bocina portátil,Electrónica,1299.0
+3,Cargador rápido,Electrónica,349.0
+4,Smartwatch,Electrónica,2499.0
+5,"Tablet 10""",Electrónica,4299.0
+6,Licuadora,Hogar,999.0
+7,Cafetera,Hogar,1199.0
+8,Aspiradora,Hogar,2199.0
+9,Sartén antiadherente,Hogar,449.0
+10,Playera básica,Ropa,249.0
+11,Chamarra,Ropa,1399.0
+12,Tenis running,Ropa,1199.0
+13,Jeans,Ropa,699.0
+14,Café molido 500g,Alimentos,189.0
+15,Aceite de oliva 1L,Alimentos,259.0
+16,Galletas integrales,Alimentos,65.0
+17,Cuaderno profesional,Papelería,45.0
+18,Pluma gel,Papelería,19.0
+19,Agenda 2026,Papelería,139.0
