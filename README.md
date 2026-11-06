@@ -1,12 +1,23 @@
 # ¿Cuánto inventario comprar el próximo mes? Pronóstico de demanda con SQL y Python
 
-Caso de negocio para una cadena minorista ficticia con 8 sucursales en México, dos de ellas en la Ciudad de México (Polanco y Santa Fe). Responde tres preguntas:
+Caso didáctico que muestra cómo el análisis de datos apoya la toma de decisiones en ventas, inventarios, contabilidad y finanzas. Usa una cadena minorista ficticia con 8 sucursales en México, dos de ellas en la Ciudad de México (Polanco y Santa Fe). Responde tres preguntas:
 
 1. **¿Qué productos, categorías y sucursales generan más ingreso?**
 2. **¿Cómo cambia la demanda mes a mes y en qué meses hay picos?**
 3. **¿Cuántas unidades conviene planear para los próximos 3 meses?**
 
 Todas las cifras están en pesos mexicanos (MXN).
+
+## Del dato a la decisión
+
+| Área | Decisión que apoya | Qué muestra este caso |
+|---|---|---|
+| **Estrategia de ventas** | Dónde enfocar esfuerzo comercial y promociones | Ingreso por categoría, sucursal y producto; peso de los 10 productos principales |
+| **Inventarios** | Cuánto comprar y cuándo | Pronóstico mensual, picos de demanda y utilidad de planear con el modelo |
+| **Contabilidad** | Registro confiable de ingresos | Regla de cálculo del ingreso y control de datos por venta |
+| **Finanzas** | Presupuesto de compras y capital de trabajo | Proyección de unidades a 3 meses, base para estimar el gasto en inventario |
+
+Esta base es el cimiento del análisis financiero: ventas con fecha, sucursal, producto, cantidad y descuento. Sobre ella se pueden construir márgenes, utilidad y costo del inventario en cuanto se agregue el costo de compra por producto, que es el siguiente paso del caso.
 
 > **Nota sobre los datos:** la base `data/ventas.db` es **sintética**. Los nombres de clientes, productos y sucursales fueron generados para practicar. Las conclusiones describen el comportamiento del dataset, no de una empresa real.
 
@@ -82,5 +93,6 @@ El modelo estacional reduce el error a menos de la mitad frente a la línea base
 ## Siguientes pasos
 
 - Pronosticar por categoría y sucursal, usando la consulta 5 como base.
+- Añadir costo de compra por producto para calcular margen, utilidad y costo del inventario.
 - Añadir promociones y precios como variables.
 - Terminar el tablero en Power BI siguiendo `powerbi/GUIA_POWER_BI.md`.
